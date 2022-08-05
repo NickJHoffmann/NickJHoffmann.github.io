@@ -1,0 +1,9 @@
+@import "../foundation/variables";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: linear-gradient($background-gradient-top, $background-gradient-bottom);
+}
