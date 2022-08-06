@@ -12,15 +12,15 @@ function Header() {
 
             <div className="header-flex-main-item">
                 <nav className="header-nav">
-                    <a href="/about">.about()</a>
-                    <a href="/work">.work()</a>
-                    <a href="/experience">.experience()</a>
+                    {/*<a href="/about">.about()</a>*/}
+                    {/*<a href="/work">.work()</a>*/}
+                    {/*<a href="/experience">.experience()</a>*/}
                 </nav>
-                <button>resume</button>
-                <a href="https://github.com/NickJHoffmann">
+                <button class="resume-button">resume</button>
+                <a href="https://github.com/NickJHoffmann" class="social-icon-link">
                     <img src="https://placehold.jp/24x24.png" alt="GitHub"/>
                 </a>
-                <a href="https://www.linkedin.com/in/nicholas-j-hoffmann/">
+                <a href="https://www.linkedin.com/in/nicholas-j-hoffmann/" class="social-icon-link">
                     <img src="https://placehold.jp/24x24.png" alt="LinkedIn"/>
                 </a>
             </div>

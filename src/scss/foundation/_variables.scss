@@ -11,3 +11,38 @@ $green: #63DEC7;
 
 $purple: #8D58FF;
 
+$phone-width: 375px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+// Fonts
+$font-family: "Source Code Pro", sans-serif;
+
+// Mobile
+$mobile-h1: 700 28px $font-family;
+$mobile-h2: 700 21px $font-family;
+$mobile-h3: 400 14px $font-family;
+$mobile-h4: 500 16px $font-family;
+$mobile-h5: 700 12px $font-family;
+$mobile-h6: 400 12px $font-family;
+$mobile-p: 500 12px $font-family;
+
+// Tablet
+$tablet-h1: 700 50px $font-family;
+$tablet-h2: 700 27px $font-family;
+$tablet-h3: 400 14px $font-family;
+$tablet-h4: 500 12px $font-family;
+$tablet-h5: 700 12px $font-family;
+$tablet-h6: 400 12px $font-family;
+$tablet-p: 500 12px $font-family;
+
+// Desktop
+$desktop-h1: 700 76px $font-family;
+$desktop-h2: 700 36px $font-family;
+$desktop-h3: 400 14px $font-family;
+$desktop-h4: 500 14px $font-family;
+$desktop-h5: 700 14px $font-family;
+$desktop-h6: 400 14px $font-family;
+$desktop-p: 500 14px $font-family;
+
+$desktop-link: 400 24px $font-family;

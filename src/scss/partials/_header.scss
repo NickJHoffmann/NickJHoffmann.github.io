@@ -1,3 +1,4 @@
+@import "../foundation/variables";
 $header-height: 100px;
 
 .header {
@@ -13,16 +14,20 @@ $header-height: 100px;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+  padding: 0 10px;
 
   .header-flex-main-item {
+    max-width: 50%;
     display: flex;
     flex-direction: row;
+    gap: 1rem;
+    align-items: center;
   }
 
   .logo {
     width: auto;
-    height: auto;
-    margin: 0 0.5rem 0 1.5rem;
+    height: 75%;
+
   }
 
   .header-nav {
@@ -31,5 +36,44 @@ $header-height: 100px;
     align-items: center;
     height: $header-height;
     overflow: hidden;
+  }
+
+  .resume-button {
+    width: 160px;
+    height: 48px;
+
+    color: $magenta;
+    border: 2.5px solid $magenta;
+    background: none;
+
+    font-size: 0.875rem;
+  }
+
+  .social-icon-link {
+    width: 1.5rem;
+    height: 1.5rem;
+    justify-items: center;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: $phone-width) {
+  .header {
+    height: 75px;
+
+    .header-nav {
+      display: none;
+    }
+
+    .resume-button {
+      width: 80px;
+      height: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-width){
+  .header {
+    height: 75px;
   }
 }
